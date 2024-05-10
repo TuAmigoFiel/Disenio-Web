@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stereorey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Stereorey</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#ArtistasFavoritos">Tus artistas favoritos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio">
+        <h2>La maxima dimension en radio</h2>
+        <p>La Máxima Dimensión del Radio. 24 horas al día de música. Nos distingue el sello de la buena música, la calidad por encima de las épocas. Aquí creamos espacios para acompañarte a lo largo de tu día y que seas parte del estilo de vida de quien sabe disfrutar. Stereorey... La radio de musica mas escuchada.</p>
+        <div class="box">
+            <h3>Nuestras señales en Misiones</h3>
+            <ul>
+                <li>Eldorado/Montecarlo: 103.5</li> 
+                <li>Apóstoles: 102.7</li>
+                <li>Posadas: 94.3</li>
+            </ul>
+        </div>
+    </section>
+    <h2>Tus artistas favoritos suenan aqui: </h2>
+    <div class="artistas" id="ArtistasFavoritos">
+        <img src="https://stories.cnnbrasil.com.br/wp-content/uploads/sites/9/2024/04/MadonnaO2171023_125_of_133_53270844239_cropped.jpg" width="340" height="512" alt="Madonna">
+        <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/06/29/16565264681372.jpg" alt="Beyoncé" width="380" height="512">
+        <img src="https://i.scdn.co/image/f5b1b588936c53348efe5526caf65852a0bd1d36" alt="Phil Collins" width="340" height="512">
+        <img src="https://postercity.com.ar/wp-content/uploads/2021/11/Daft-Punk-Oil-Painting.jpg" alt="Daft Punk" width="380" height="512">
+    </div>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <label for="mensaje">Mensaje:</label>
+            <div class="zonaMensaje">
+                <textarea id="mensaje" name="mensaje"></textarea><br>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Derechos de autor © 2024 Stereorey</p>
+    </footer>
+</body>
+</html>
