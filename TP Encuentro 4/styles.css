@@ -1,4 +1,4 @@
-/* Estilos para el cuerpo y el fondo */
+/* Estilos para el cuerpo y el fondo (Punto 1 y 3) */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-/* Estilos para el menú de navegación */
+/* Estilos para el menú de navegación (Punto 6, 7 y 10) */
 nav {
     background-color: #666;
     padding: 10px;
@@ -37,14 +37,14 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Estilos para las secciones */
+/* Estilos para las secciones (Punto 4) */
 section {
     padding: 20px;
     margin: 20px 0;
     background-color: #fff;
 }
 
-/* Estilos para la galería de imágenes */
+/* Estilos para la galería de imágenes (Punto 2)*/
 
 .artistas {
     display: grid;
@@ -67,7 +67,7 @@ footer {
     text-align: center;
 }
 
-/* Estilos para las cajas */
+/* Estilos para las cajas (Punto 4) */
 .box {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
@@ -75,7 +75,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Estilos para formularios */
+/* Estilos para formularios (Punto 5, 8 y 9) */
 form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
