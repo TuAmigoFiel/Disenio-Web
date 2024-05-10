@@ -1,0 +1,40 @@
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fondo{
+    background-color: rgb(28, 31, 32);
+    color: white;
+}
+
+/* Estilos para los elementos de la página */
+button {
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+}
+
+#galeria {
+    text-align: center;
+}
+
+#lista-tareas {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#lista-tareas input[type="text"] {
+    margin-bottom: 10px;
+}

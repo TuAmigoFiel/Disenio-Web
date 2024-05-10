@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="cuerpo">
+    <h1>Trabajo Practico JavaScript</h1>
+
+    <!-- Contador de Clicks -->
+    <h2>Contador de clicks</h2>
+    <button onclick="contarClicks()">Contador de Clicks</button>
+    <p id="contador">0</p>
+
+    <!-- Cambio de Estilos Dinámico -->
+    <h2>Cambiar de estilo la pagina</h2>
+    <div id="cambio-estilo"><button onclick="cambiarEstilo()">Cambiar de Estilos la pagina de manera dinamica</button></div>
+
+    <!-- Validación de Formulario Simple -->
+    <h2>Formulario para validar</h2>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena"><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Galería de Imágenes con Botones de Navegación -->
+    <h2>Galería de imagenes</h2>
+    <div id="galeria">
+        <button onclick="mostrarImagenAnterior()">Anterior</button>
+        <img src="imagen1.jpg" alt="Imagen 1" width="300" height="300">
+        <button onclick="mostrarImagenSiguiente()">Siguiente</button>
+    </div>
+
+    <!-- Lista de Tareas con Agregar y Eliminar -->
+    <h2>Crear una lista de tareas</h2>
+    <div id="lista-tareas">
+        <label for="nueva-tarea">Agregue una nueva tarea:</label>
+        <input type="text" id="nueva-tarea">
+        <button onclick="agregarTarea()">Agregar</button>
+        <ul id="tareas"></ul>
+    </div>
+
+    <!-- Reloj Digital -->
+    <h2>Reloj Digital</h2>
+    <div id="reloj">Reloj Digital</div>
+
+    <script src="contador_clicks.js"></script>
+    <script src="cambio_estilo.js"></script>
+    <script src="validacion_formulario.js"></script>
+    <script src="galeria_imagenes.js"></script>
+    <script src="lista_tareas.js"></script>
+    <script src="reloj_digital.js"></script>
+</body>
+</html>
